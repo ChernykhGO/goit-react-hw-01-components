@@ -1,0 +1,14 @@
+.FriendsItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #514747;
+    margin-bottom: 10px;
+}
+
+.status {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
