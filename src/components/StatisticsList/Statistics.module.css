@@ -1,6 +1,6 @@
 .Statistics {
     margin: 0 auto;
-    width: 400px;
+    display: table;
     border: 1px solid #514747;
     text-align: center;
     margin-bottom: 20px;
@@ -9,6 +9,7 @@
 .StatList {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
 }
@@ -16,6 +17,6 @@
 .Item {
     display: flex;
     flex-direction: column;
-    flex: 2;
     background-color: rgb(50, 219, 163);
+    padding: 5px;
 }
